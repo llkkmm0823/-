@@ -101,7 +101,7 @@ public class ActionFactory {
 		else if( command.equals("adminQnaDetail") ) ac = new AdminQnaDetailAction();
 		else if( command.equals("adminQnaRepSave") ) ac = new AdminQnaRepSaveAction();
 	
-		
+// 액션팩토리에서 커맨드를 받아 액션으로 전달하는 작업 수행
 		
 		return ac;
 	}
